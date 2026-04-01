@@ -8,6 +8,11 @@ import StarRating from './components/star-rating'
 import ImageSlider from './components/Image-Slider'
 import LoadMoreData from './components/load-more-data'
 
+import menus from './components/TreeView1/data'
+import TreeView from './components/TreeView1'
+import QRCodeGenerator from './components/Qr code generator'
+import LightDarkMode from './components/light-dark-mode'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,8 +29,13 @@ function App() {
     {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={10} />
        */}
 
-       <LoadMoreData />
+       {/* <LoadMoreData /> */}
 
+        {/* <TreeView menus={menus} /> */}
+{/* 
+        <QRCodeGenerator /> */}
+
+        <LightDarkMode />
      
     </>
   )

@@ -8,12 +8,9 @@ export default function Tabs({tabsContent, onChange}){
         function handleOnClick(getCurrentIndex){
             setCurrentTabInddex(getCurrentIndex);
             onChange(getCurrentIndex)
-
-        }
+    }
     
-    
-    
-        return (
+     return (
 
     <div className="wrapper">
         <div className="heading">
@@ -34,4 +31,4 @@ export default function Tabs({tabsContent, onChange}){
         </div>
     </div>
     )
-}
+}   

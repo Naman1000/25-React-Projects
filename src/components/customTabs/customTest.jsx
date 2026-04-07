@@ -7,13 +7,7 @@ function RandomComponent(){
     return <h1>some random component</h1>
 }
 
-
-
 const TabTest = () => {
-
-
-
-
 
     const tabs = [
         {
@@ -27,8 +21,7 @@ const TabTest = () => {
          {
             label : 'Tab 3',
             content : <RandomComponent />
-        },
-        
+        }
     ]
 
     function handleChange(currentTabIndex){

@@ -16,6 +16,7 @@ import ScrollIndicator from './components/scroll-indicator'
 import TabTest from './components/customTabs/customTest'
 import ModalTest from './components/custom-Modal-Popup/modal-test'
 import GithubProfileFinder from './components/github-profile-finder'
+import SearchAutoComplete from './components/search-autocomplete/searrch-autocomplete-with-api'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -47,9 +48,10 @@ function App() {
 
         {/* <ModalTest /> */}
    
-        <GithubProfileFinder />
+        {/* <GithubProfileFinder /> */}
    
-   
+        <SearchAutoComplete />
+
     </>
   )
 }

@@ -22,8 +22,7 @@ export default function SearchAutoComplete(){
         }else{
             setShowDropdown(false)
         }
-
-    }
+         }
 
     function handleClick(e){
         console.log(e.target.innerText)

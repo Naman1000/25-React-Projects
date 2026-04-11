@@ -17,9 +17,15 @@ import TabTest from './components/customTabs/customTest'
 import ModalTest from './components/custom-Modal-Popup/modal-test'
 import GithubProfileFinder from './components/github-profile-finder'
 import SearchAutoComplete from './components/search-autocomplete/searrch-autocomplete-with-api'
+import TicTacToe from './components/TiicTacToe'
+import FeatureFlags from './components/feature-flag'
+import FeatureFlagGlobalState from './components/feature-flag/context'
+import UseFetchHookTest from './components/Use-Fetch/test'
+import UseOnclickOutsideTest from './components/use-outside-click/Index'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
@@ -37,8 +43,8 @@ function App() {
        {/* <LoadMoreData /> */}
 
         {/* <TreeView menus={menus} /> */}
-{/* 
-        <QRCodeGenerator /> */}
+
+        {/* <QRCodeGenerator /> */}
 
         {/* <LightDarkMode /> */}
 
@@ -50,7 +56,18 @@ function App() {
    
         {/* <GithubProfileFinder /> */}
    
-        <SearchAutoComplete />
+        {/* <SearchAutoComplete /> */}
+
+        {/* <TicTacToe /> */}
+
+        {/* <FeatureFlagGlobalState>
+          <FeatureFlags />
+        </FeatureFlagGlobalState> */}
+
+         {/* <UseFetchHookTest /> */}
+
+          <UseOnclickOutsideTest />
+
 
     </>
   )
